@@ -378,10 +378,11 @@ q:before, q:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .service-section__tag {
-  margin: 1.1111111111vh 0 1.1111111111vh 0;
+  margin: 0.8888888889vh 0 1.1111111111vh 0;
   font-family: "Poppins";
   font-weight: 600;
   font-size: 2vh;
@@ -428,8 +429,7 @@ q:before, q:after {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
-  z-index: 50;
+  position: absolute;
 }
 
 .service-section__chose-el {
@@ -437,19 +437,22 @@ q:before, q:after {
   height: 11.1111111111vh;
   position: absolute;
   border-radius: 30px 0px 10px;
-  z-index: -50;
+  z-index: -10;
   left: -50px;
+  top: 250px;
 }
 
 .service-section__service:hover {
   -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
           box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-  z-index: 100;
 }
 .service-section__service:hover .service-section__chose-el {
   background-color: #DF6951;
 }
 
+.service-section__service_first {
+  left: 0;
+}
 .service-section__service_first .service__icon-wrap {
   width: 6.3888888889vw;
   height: 8.6666666667vh;
@@ -465,6 +468,9 @@ q:before, q:after {
           transform: rotate(-180deg);
 }
 
+.service-section__service_second {
+  left: 22.2451388889vw;
+}
 .service-section__service_second .service__icon-wrap {
   width: 11.5881944444vw;
   height: 17.0366666667vh;
@@ -483,6 +489,9 @@ q:before, q:after {
           transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
+.service-section__service_third {
+  left: 44.4902777778vw;
+}
 .service-section__service_third .service__icon-wrap {
   width: 4.6527777778vw;
   height: 8.3333333333vh;
@@ -499,6 +508,9 @@ q:before, q:after {
   left: 8.3333333333vw;
 }
 
+.service-section__service_forth {
+  left: 66.7354166667vw;
+}
 .service-section__service_forth .service__icon-wrap {
   width: 5.3472222222vw;
   height: 7.3333333333vh;
@@ -517,7 +529,7 @@ q:before, q:after {
 }
 
 .service__icon {
-  z-index: 2;
+  z-index: 200;
   position: absolute;
 }
 
@@ -526,7 +538,7 @@ q:before, q:after {
   height: 5.4444444444vh;
   background: #FFF1DA;
   position: absolute;
-  z-index: 1;
+  z-index: 160;
   border-radius: 18px 5px 10px;
 }
 

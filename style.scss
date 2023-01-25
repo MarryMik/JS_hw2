@@ -308,9 +308,10 @@ q:before, q:after {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .service-section__tag{
-    margin: (1000vh/900) 0 (1000vh/900) 0;
+    margin: (800vh/900) 0 (1000vh/900) 0;
     font-family: 'Poppins';
     font-weight: 600;
     font-size: (1800vh/900);
@@ -338,26 +339,29 @@ q:before, q:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    z-index: 50;
+    position: absolute;
+    //z-index: 2;
 }
 .service-section__chose-el{
     width: (10000vw/1440);
     height: (10000vh/900);
     position: absolute;
     border-radius: 30px 0px 10px;
-    z-index: -50;
+    z-index: -10;
     left: -50px;
-   // top: -5px;
+    top: 250px;
 }
+
 .service-section__service:hover{
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
-    z-index: 100;
+    
     .service-section__chose-el{
         background-color: $decor-elem-color;
+        //z-index: -150;
     }
 }
 .service-section__service_first{
+    left: 0;
     .service__icon-wrap{
         width: (9200vw/1440);
         height: (7800vh/900);
@@ -375,6 +379,7 @@ q:before, q:after {
     
 }
 .service-section__service_second{
+    left: (26700vw+4000+1333)/1440;
     .service__icon-wrap{
         width: (16687vw/1440);
         height: (15333vh/900);
@@ -393,6 +398,7 @@ q:before, q:after {
     
 }
 .service-section__service_third{
+    left: (2*(26700vw+4000+1333))/1440;
     .service__icon-wrap{
         width: (6700vw/1440);
         height: (7500vh/900);
@@ -410,6 +416,7 @@ q:before, q:after {
     
 }
 .service-section__service_forth{
+    left: 3*(26700vw+4000+1333)/1440;
     .service__icon-wrap{
         width: (7700vw/1440);
         height: (6600vh/900);
@@ -427,7 +434,7 @@ q:before, q:after {
     }
 }
 .service__icon{
-    z-index: 2;
+    z-index: 200;
     position: absolute;
 }
 .service__icon-back{
@@ -435,7 +442,7 @@ q:before, q:after {
     height: (4900vh/900);
     background: $decor-back-color;
     position: absolute;
-    z-index: 1;
+    z-index: 160;
     border-radius: 18px 5px 10px;
 }
 .service__name{
