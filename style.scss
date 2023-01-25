@@ -303,8 +303,8 @@ q:before, q:after {
 //------service section
 .service-section{
     width: (122800vw/1440);
-    height: fit-content;
-    margin: 0 0 (12300vh/900) (15400vw/1440);
+    height: (52500vh/900);
+    margin: 0 0 (12300vh/900) (11800vw/1440);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -340,7 +340,10 @@ q:before, q:after {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    //z-index: 2;
+}
+.service-section__decoration{
+    position: absolute;
+    right :0;
 }
 .service-section__chose-el{
     width: (10000vw/1440);
@@ -348,8 +351,9 @@ q:before, q:after {
     position: absolute;
     border-radius: 30px 0px 10px;
     z-index: -10;
-    left: -50px;
-    top: 250px;
+    left: (-5000vw/1440);
+    top: (25000vh/900);
+    
 }
 
 .service-section__service:hover{
@@ -357,7 +361,6 @@ q:before, q:after {
     
     .service-section__chose-el{
         background-color: $decor-elem-color;
-        //z-index: -150;
     }
 }
 .service-section__service_first{
@@ -429,7 +432,7 @@ q:before, q:after {
         .service__icon-back{
             transform: matrix(1, 0, 0, -1, 0, 0);
             top: (13800vh-6605)/900;
-            left: 122px;
+            left: (12200vw/1440);
         }
     }
 }
@@ -463,4 +466,111 @@ q:before, q:after {
     font-size: (1600vh/900);
     line-height: (2600vh/900);
     color: $descr-text-color;
+}
+//----destination section
+.destination-section{
+    width: (110200vw/1440);
+    height: (61700vh/900);
+    margin: 0 0 (18600vh/900) (17300vw/1440);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.destination-section__tag{
+    font-size: (1800vh/900);
+    font-weight: 600;
+    font-style: 'Poppins';
+    line-height: (2700vh/900);
+    color: $descr-text-color;  
+}
+.destination-section__headline{
+    margin: (800vh/900) 0 (6000vh/900) 0;
+    font-family: 'Volkhov';
+    font-size: (5000vh/900);
+    line-height: (6400vh/900);
+    font-weight: 700;
+    color: $headline-color;
+}
+.destination-section__cards-wrap{
+    display: flex;
+    flex-direction: row;
+}
+.destination-section__card{
+    width: (31500vw/1440);
+    height: (45700vh/900);
+    position: relative;
+    border-radius: (2400vw/1440);
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    
+}
+.destination-section__card:hover{
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.04)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.03151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.05121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.1)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.0785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.0481481));
+    width: (32500vw/1440);
+    height: (46700vh/900);
+    .dest-card__info-box{
+        width: ((32500vw-2500-2000)/1440);
+    }
+}
+.destination-section__card_first{
+    margin-right: (3500vw/1440);
+}
+.destination-section__card_second{
+    margin-right: (6000vw/1440);
+}
+
+.dest-card__photo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: (2400vw/1440);
+}
+.dest-card__info-box{
+    border-radius: 0 0 (2400vw/1440) (2400vw/1440);
+    position: absolute;
+    z-index: 10;
+    width: ((31500vw-2500-2000)/1440);
+    height: (13000vh-2700-4200)/900;
+    bottom: 0;
+    background-color: #FFFFFF;
+    padding: (2700vh/900) (2500vw/1440) (4200vh/900) (2000vw/1440);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.info-box__place-price{
+    display: flex;
+    justify-content: space-between;
+}
+.info-box__duration-wrap{
+    display: flex;
+}
+.info-box__place{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: (1800vh/900);
+    line-height: (2200vh/900);
+    color: $descr-text-color;
+}
+.info-box__price{
+   @extend .info-box__place;
+}
+.info-box__icon{
+    width: (2000vw/1440);
+    height: (2000vh/900);
+    margin-right: (1100vw/1440);
+}
+.info-box__duration{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: (1600vh/900);
+    line-height: (2000vh/900);
+    color: $descr-text-color;
+}
+.destination-section__decoration{
+    position: absolute;
+    right: -30px;
+    bottom: 47px;
+    z-index: -10;
 }
