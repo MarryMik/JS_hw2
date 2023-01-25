@@ -711,4 +711,330 @@ q:before, q:after {
   right: -30px;
   bottom: 47px;
   z-index: -10;
+}
+
+.booking-section {
+  width: 77.3611111111vw;
+  height: 54.6666666667vh;
+  margin: 0 0 22.2222222222vh 12.9166666667vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.booking-section__tag {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2vh;
+  line-height: 1.875vw;
+  color: #5E6282;
+}
+
+.booking-section__headline-wrap {
+  margin: 1.6666666667vh 8.1944444444vw 3.4444444444vh 0;
+  width: 35.4861111111vw;
+}
+
+.booking-section__headline {
+  font-family: "Volkhov";
+  font-weight: 700;
+  font-size: 5.5555555556vh;
+  line-height: 7.1111111111vh;
+  text-transform: capitalize;
+  color: #14183E;
+}
+
+.booking-section__steps-wrap {
+  width: 27.4305555556vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.booking-section__step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.booking-section__step_second {
+  margin: 5.3333333333vh 0 5.3333333333vh 0;
+}
+
+.book-step__icon-box {
+  width: 3.2638888889vw;
+  height: 5.3333333333vh;
+  border: 0;
+  margin-right: 1.4583333333vw;
+  border-radius: 0.9027777778vw;
+  background-color: #FFF1DA;
+  position: relative;
+}
+
+.book-step__icon-box_first {
+  background-color: #F0BB1F;
+}
+.book-step__icon-box_first .book-step__icon {
+  width: 1.5277777778vw;
+  height: 2.4444444444vh;
+  position: absolute;
+  left: 0.9027777778vw;
+  top: 1.3333333333vh;
+}
+
+.book-step__icon-box_second {
+  background-color: #F15A2B;
+}
+.book-step__icon-box_second .book-step__icon {
+  width: 1.53125vw;
+  height: 1.9844444444vh;
+  position: absolute;
+  left: 0.9375vw;
+  top: 1.4444444444vh;
+}
+
+.book-step__icon-box_third {
+  background-color: #006380;
+}
+.book-step__icon-box_third .book-step__icon {
+  width: 1.5625vw;
+  height: 2.0833333333vh;
+  position: absolute;
+  left: 0.9375vw;
+  top: 1.4444444444vh;
+}
+
+.book-step__text {
+  width: 22.7083333333vw;
+}
+
+.book-step__headline {
+  margin-bottom: 0.4444444444vh;
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 1.7777777778vh;
+  line-height: 2.2222222222vh;
+  color: #5E6282;
+}
+
+.book-step__description {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1.7777777778vh;
+  line-height: 2.2222222222vh;
+  color: #5E6282;
+}
+
+.booking-section__post-wrap {
+  position: relative;
+}
+
+.booking-section__post-box {
+  margin: 8.6666666667vh;
+  width: 23.9583333333vw;
+  height: 42.2222222222vh;
+  padding: 2.2222222222vh 0 0 1.7361111111vw;
+  border-radius: 1.8055555556vw;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.booking-section__decor-ellipse {
+  width: 24.5833333333vw;
+  height: 40.7777777778vh;
+  background: #59B1E6;
+  opacity: 0.4;
+  -webkit-filter: blur(75px);
+          filter: blur(75px);
+  position: absolute;
+  z-index: -100;
+  top: -1.1111111111vh;
+  right: -1.3888888889vw;
+}
+
+.post-box__photo {
+  margin-bottom: 2.8888888889vh;
+  border: 1px solid #000000;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 1.6666666667vw;
+}
+
+.post-box__headline {
+  margin-bottom: 1.4444444444vh;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2vh;
+  line-height: 2.4444444444vh;
+  letter-spacing: 0.015em;
+  color: #080809;
+}
+
+.post-box__description-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2.3333333333vh;
+}
+.post-box__description-wrap p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.7777777778vh;
+  line-height: 2.2222222222vh;
+  letter-spacing: -0.005em;
+  color: #84829A;
+  margin-right: 0.2083333333vw;
+}
+
+.post-box__line {
+  height: 1.7777777778vh;
+  margin-right: 0.9027777778vw;
+}
+
+.post-box__icons-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 9.6527777778vw;
+  height: 4vh;
+  margin-bottom: 3.2222222222vh;
+}
+
+.post-box__icon-box {
+  background-color: #F5F5F5;
+  width: 2.5vw;
+  height: 4vh;
+  border-radius: 50%;
+  position: relative;
+}
+
+.post-box__icon {
+  width: 0.9722222222vw;
+  height: 1.5555555556vh;
+  position: absolute;
+  left: 0.7638888889vw;
+  top: 1.2222222222vh;
+}
+
+.post-box__popularity-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.post-box__popularity-icon {
+  width: 1.1111111111vw;
+  height: 1.7777777778vh;
+}
+
+.post-box__popularity-info {
+  margin: 0 9.9305555556vw 0 1.0416666667vw;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.7777777778vh;
+  line-height: 2.2222222222vh;
+  letter-spacing: -0.005em;
+  color: #84829A;
+}
+
+.post-box__heart-icon {
+  width: 1.3888888889vw;
+  height: 2.0644444444vh;
+}
+
+.booking-section__post-addition {
+  width: 18.2638888889vw;
+  height: 14.3333333333vh;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 1.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  z-index: 30;
+  bottom: 63px;
+  right: -37px;
+}
+
+.post-addition__picture-box {
+  position: relative;
+  width: 3.4722222222vw;
+  height: 5.5555555556vh;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 2vh 0.6944444444vw 0 1.3888888889vw;
+}
+
+.post-addition__photo {
+  width: 5.1388888889vw;
+  height: 7.3333333333vh;
+  position: absolute;
+  z-index: 4;
+  left: -0.9027777778vw;
+}
+
+.post-addition__tag {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.5555555556vh;
+  line-height: 1.8888888889vh;
+  letter-spacing: -0.035em;
+  color: #84829A;
+  margin: 1.7777777778vh 0 0.6666666667vh 0.1388888889vw;
+}
+
+.post-addition__headline {
+  color: #080809;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2vh;
+  line-height: 2.4444444444vh;
+  letter-spacing: 0.015em;
+  margin-bottom: 1.5555555556vh;
+}
+
+.post-addition__progress-text_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.post-addition__progress-text_wrap p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.5555555556vh;
+  line-height: 1.8888888889vh;
+  letter-spacing: -0.055em;
+  margin-bottom: 1.1111111111vh;
+}
+
+.post-addition__progress-perc {
+  color: #8a79df;
+}
+
+.post-addition__progress-status {
+  color: #080809;
+}
+
+.post-addition__progress-bar {
+  width: 10.8333333333vw;
+  height: 0.5555555556vh;
+  border-radius: 2.0833333333vw;
+  background-color: #F5F5F5;
+  position: relative;
+}
+
+.post-addition__progress-compl {
+  background-color: #8a79df;
+  width: 5.0694444444vw;
+  height: 0.5555555556vh;
+  border-radius: 2.0833333333vw;
 }/*# sourceMappingURL=style.css.map */
