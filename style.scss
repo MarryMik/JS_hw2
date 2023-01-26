@@ -839,3 +839,76 @@ q:before, q:after {
     height: ( 500vh/900);
     border-radius: (3000vw/1440);
 }
+
+.termination-section{
+    margin: 0 0 (17300vh/900) (18600vw/1440);
+    width: (103700vw/1440);
+    height: (27900vh/900);
+    display: flex;
+    justify-content: space-between;
+}
+.termination-section__tag{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: (1800vh/900);
+    line-height: (2700vh/900);
+    color: $descr-text-color;
+    margin: (900vh/900) 0 (800vh/900) 0;
+}
+.termination-section__left-block{
+    width: (40900vw/1440);
+}
+.termination-section__headline{
+    font-family: 'Volkhov';
+    font-weight: 800;
+    font-size: (5000vh/900);
+    line-height: (6400vh/900);
+    text-transform: capitalize;
+    color: $headline-color;
+}
+.termination-section__right-block{
+    position: relative;
+    width: (54100vw/1440);
+    height: (27900vh/900);
+}
+.termination-section__text{
+    width: ((50400vw-3400)/1440);
+    height: (24500vh/900);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-left: (3400vw/1440);
+    p{
+        font-family: 'Poppins';
+        color:$descr-text-color;
+    }
+}
+.termination-section__quote-wrap{
+    width: (40200vw/1440);
+    margin: (2800vh/900) 0 (3400vh/900) 0;
+}
+.termination-section__quote{
+    font-size: (1600vh/900);
+    line-height: (3200vh/900);
+    font-weight: 600;
+}
+.termination-section__author{
+    font-size: (1800vh/900);
+    line-height: (2700vh/900);
+    font-weight: 700;
+    margin-bottom: (500vh/900);
+}
+.termination-section__location{
+    font-size: (1400vh/900);
+    line-height: (2100vh/900);
+    font-weight: 500;
+    margin-bottom: (3400vh/900);
+}
+.termination-section__photo{
+    width: (6800vw/1440);
+    height: (6800vh/900);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}

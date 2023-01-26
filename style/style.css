@@ -1037,4 +1037,91 @@ q:before, q:after {
   width: 5.0694444444vw;
   height: 0.5555555556vh;
   border-radius: 2.0833333333vw;
+}
+
+.termination-section {
+  margin: 0 0 19.2222222222vh 12.9166666667vw;
+  width: 72.0138888889vw;
+  height: 31vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.termination-section__tag {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 2vh;
+  line-height: 3vh;
+  color: #5E6282;
+  margin: 1vh 0 0.8888888889vh 0;
+}
+
+.termination-section__left-block {
+  width: 28.4027777778vw;
+}
+
+.termination-section__headline {
+  font-family: "Volkhov";
+  font-weight: 800;
+  font-size: 5.5555555556vh;
+  line-height: 7.1111111111vh;
+  text-transform: capitalize;
+  color: #14183E;
+}
+
+.termination-section__right-block {
+  position: relative;
+  width: 37.5694444444vw;
+  height: 31vh;
+}
+
+.termination-section__text {
+  width: 32.6388888889vw;
+  height: 27.2222222222vh;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-left: 2.3611111111vw;
+}
+.termination-section__text p {
+  font-family: "Poppins";
+  color: #5E6282;
+}
+
+.termination-section__quote-wrap {
+  width: 27.9166666667vw;
+  margin: 3.1111111111vh 0 3.7777777778vh 0;
+}
+
+.termination-section__quote {
+  font-size: 1.7777777778vh;
+  line-height: 3.5555555556vh;
+  font-weight: 600;
+}
+
+.termination-section__author {
+  font-size: 2vh;
+  line-height: 3vh;
+  font-weight: 700;
+  margin-bottom: 0.5555555556vh;
+}
+
+.termination-section__location {
+  font-size: 1.5555555556vh;
+  line-height: 2.3333333333vh;
+  font-weight: 500;
+  margin-bottom: 3.7777777778vh;
+}
+
+.termination-section__photo {
+  width: 4.7222222222vw;
+  height: 7.5555555556vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
 }/*# sourceMappingURL=style.css.map */
