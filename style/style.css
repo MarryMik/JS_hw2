@@ -1086,6 +1086,9 @@ q:before, q:after {
   bottom: 0;
   right: 0;
   padding-left: 2.3611111111vw;
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 0.6944444444vw;
 }
 .termination-section__text p {
   font-family: "Poppins";
@@ -1124,4 +1127,69 @@ q:before, q:after {
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.logos-section {
+  height: 18vh;
+  width: 84.2361111111vw;
+  margin: 0 0 12.3333333333vh 9.0277777778vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.logos-section__logo-wrap {
+  width: 16.7361111111vw;
+  height: 9.5555555556vh;
+  position: relative;
+  border-radius: 0.6944444444vw;
+  overflow: hidden;
+}
+
+.logos-section__logo {
+  position: absolute;
+}
+
+.logos-section__logo-wrap:hover {
+  -webkit-box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+          box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+}
+
+.logos-section__logo_first {
+  width: 9.0277777778vw;
+  height: 14.4444444444vh;
+  left: 3.6111111111vw;
+  top: -2.2222222222vh;
+}
+
+.logos-section__logo_second {
+  width: 12.0041666667vw;
+  height: 12.2222222222vh;
+  left: 2.7777777778vw;
+  top: -1.3333333333vh;
+}
+
+.logos-section__logo_third {
+  width: 11.25vw;
+  height: 18vh;
+  left: 2.7777777778vw;
+  top: -4.3333333333vh;
+}
+
+.logos-section__logo_forth {
+  width: 11.25vw;
+  height: 3.5555555556vh;
+  left: 2.0833333333vw;
+  top: 2.7777777778vh;
+}
+
+.logos-section__logo_fifth {
+  width: 6.5277777778vw;
+  height: 2.3333333333vh;
+  left: 4.8611111111vw;
+  top: 3.3333333333vh;
 }/*# sourceMappingURL=style.css.map */
